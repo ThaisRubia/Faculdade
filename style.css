@@ -7,8 +7,6 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     margin-top: 17%;
     font-size: 24px;
     margin-left: 40%;
@@ -17,8 +15,29 @@ form {
     border: 5px solid purple;
 }
 
-#login {
+button {
+    display: flex;
     padding: 5px;
     width: 60px;
     color: purple;
+    
+}
+#login {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#login , h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: purple;
+    
+}
+p {
+    font-size: 15px;
+}
+.lembrar {
+    display: flex;
+    
 }
